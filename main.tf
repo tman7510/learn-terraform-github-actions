@@ -12,7 +12,7 @@ terraform {
   required_version = ">= 0.14"
 
   backend "remote" {
-    organization = "REPLACE_ME"
+    organization = "maximus-pc"
 
     workspaces {
       name = "gh-actions-demo"
@@ -26,7 +26,7 @@ provider "aws" {
 }
 
 
-
+##comment
 resource "random_pet" "sg" {}
 
 resource "aws_instance" "web" {
